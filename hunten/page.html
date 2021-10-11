@@ -6,7 +6,7 @@
         .titles {
             padding-top: 25px;
             text-align: center;
-            font-family: Avenir;
+            font-family: Verdana;
             font-size: 40px;
         }
 
@@ -20,13 +20,31 @@
             text-align: center;
         }
 
+        .inputbox {
+            font-family: "Verdana";
+            padding-top: 50px;
+            text-align: center;
+        }
+
         .btn {
-            font-family: Avenir;
+            font-family: Verdana;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .gunshot {
+            padding-top: 20px;
+            text-align: center;
+            font-family: Verdana;
+
             font-size: 20px;
         }
 
         .swb {
-            width: 500px;
+
+            width: 95%;
+            max-width: 1000px;
+            object-fit: contain;
             margin: auto;
             display: block;
         }
@@ -37,7 +55,7 @@
 <body>
 
     <div class=titles>
-        Hunt: Showdown Sound Identification
+        <b>Hunt: Showdown Sound Identification</b>
     </div>
 
     <div>
@@ -45,24 +63,19 @@
 
     </div>
 
-    <div class="row">
-        <div class="column">
-            <button class="btn">
-                100m
-            </button>
-        </div>
-        <div class="column">
-            <button class="btn">
-                200m
-            </button>
-        </div>
-        <div class="column">
-            <button class="btn">
-                300m
-            </button>
-        </div>
+    <div class="inputbox">
+        <button class="btn" id="5676"> Shoot </button>
     </div>
 
+    <div class="gunshot" id="1234">
+        this
+    </div>
+
+    <div class="inputbox">
+        <input placeholder="Weapon" id="4426">
+    </div>
+
+    <script src="onEnter.js"></script>
 </body>
 
 </html>
